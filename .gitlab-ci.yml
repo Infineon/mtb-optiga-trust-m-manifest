@@ -1,0 +1,38 @@
+stages:
+  - build
+  - deploy
+
+before_script:
+  - env
+
+process_manifest:
+  stage: build
+  tags:
+    - devops-linux
+  except:
+    - tags
+  variables:
+    # Uncomment to test process_manifest.py update from devops_scripts sandbox:
+    # http://devops-git.aus.cypress.com/devops/devops_scripts/-/branches
+    #DEVOPS_BRANCH: topic/vmed-manifest
+  script:
+    # process internal manifest and save to deploy directory
+    - bash process_manifest.sh
+  artifacts:
+    paths:
+      - deploy
+    expire_in: 1 hour
+
+deploy_manifest:
+  stage: deploy
+  tags:
+    - devops-assets
+  only:
+    # only execute deploy from vX.Y branches
+    - /^v[X0-9.]+\.[X0-9.]+/
+  except:
+    - tags
+  script:
+    - git clone git@git-ore.aus.cypress.com:devops/devops_scripts.git
+    # copy artifacts from deploy directory to repo-staging gitlab repository
+    - bash devops_scripts/manifest/job_deploy_manifest.sh
