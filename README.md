@@ -1,7 +1,7 @@
-# ModusToolbox Connected Sensor Kit Manifests
+# ModusToolbox OPTIGA(TM) Trust M Manifests
 
 ### Overview
-The manifest files contain a list of URIs that the ModusToolbox software uses to load Connected Sensor Kit content (Middleware and Code Examples). This manifest is used by the ModusToolbox software.
+The manifest files contain a list of URIs that the ModusToolbox software uses to load OPTIGA(TM) Trust M content (Middleware and Code Examples). This manifest is used by the ModusToolbox software.
 
 ---
 © Infineon Semiconductors, 2021.
