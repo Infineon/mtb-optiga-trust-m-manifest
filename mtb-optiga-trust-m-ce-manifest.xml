@@ -1,6 +1,6 @@
 <apps>
   <app keywords="psoc6,optiga,trustm,security,iot">
-    <name>Secure Element: Certificates and data management demonstration</name>
+    <name>Secure Element. Certificates and data management demonstration</name>
     <id>mtb-example-se-data-management</id>
     <uri>https://github.com/ayushev/mtb-example-se-data-management.git</uri>
     <description>This application demonstrates the use of the OPTIGA™ Trust M application on the feather board on FreeRTOS.</description>
