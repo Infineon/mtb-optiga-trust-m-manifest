@@ -1,14 +1,14 @@
 <apps>
   <app keywords="psoc6,optiga,trustm,security,iot">
-    <name>OPTIGA Trust M example Application</name>
-    <id>mtb-example-radar-presence-freertos</id>
-    <uri>https://github.com/Infineon/mtb-example-optiga-trust-m</uri>
+    <name>Secure Element (SE): Certificates and data management demonstration</name>
+    <id>mtb-example-se-data-management</id>
+    <uri>https://github.com/ayushev/mtb-example-se-data-management.git</uri>
     <description>This application demonstrates the use of the OPTIGA™ Trust M application on the feather board on FreeRTOS.</description>
     <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
+        <commit>v1.0</commit>
       </version>
     </versions>
   </app>
