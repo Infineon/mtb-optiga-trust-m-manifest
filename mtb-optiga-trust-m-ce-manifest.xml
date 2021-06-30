@@ -1,18 +1,5 @@
 <apps>
   <app keywords="psoc6,optiga,trustm,security,iot">
-    <name>Secure Element. Anycloud MQTT Client demonstration using a pre-installed X.509 Certificate</name>
-    <id>mtb-example-se-anycloud-mqtt-client</id>
-    <uri>https://github.com/ayushev/mtb-example-se-anycloud-mqtt-client.git</uri>
-    <description>This application demonstrates how to connect to an MQTT Server using a secure element and its pre-provisioned certificate. Currently cupported devices: OPTIGA™ Trust M </description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
-    <versions>
-      <version>
-        <num>Latest 1.X release</num>
-        <commit>v1.0</commit>
-      </version>
-    </versions>
-  </app>
-  <app keywords="psoc6,optiga,trustm,security,iot">
     <name>Secure Element. Cryptography demonstration</name>
     <id>mtb-example-se-crypt</id>
     <uri>https://github.com/ayushev/mtb-example-se-crypt.git</uri>
