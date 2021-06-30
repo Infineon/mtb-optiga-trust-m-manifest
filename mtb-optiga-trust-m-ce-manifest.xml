@@ -4,7 +4,7 @@
     <id>mtb-example-se-crypt</id>
     <uri>https://github.com/ayushev/mtb-example-se-crypt.git</uri>
     <description>This application demonstrates cryptohraphical functions. Currently cupported devices: OPTIGA™ Trust M </description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 cysbsyskit_dev_01 cysbsyskit_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -17,7 +17,7 @@
     <id>mtb-example-se-data-management</id>
     <uri>https://github.com/ayushev/mtb-example-se-data-management.git</uri>
     <description>This application demonstrates Data Objects and Metadata Objects management. Currently cupported devices: OPTIGA™ Trust M </description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 cysbsyskit_dev_01 cysbsyskit_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -30,7 +30,7 @@
     <id>mtb-example-se-power-management</id>
     <uri>https://github.com/ayushev/mtb-example-se-power-management.git</uri>
     <description>This application demonstrates power management. Currently cupported devices: OPTIGA™ Trust M </description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 cysbsyskit_dev_01 cysbsyskit_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>
@@ -43,7 +43,7 @@
     <id>mtb-example-se-anycloud-mqtt-client</id>
     <uri>https://github.com/ayushev/mtb-example-se-anycloud-mqtt-client.git</uri>
     <description>This application demonstrates how to connect to an MQTT Server using a secure element and its pre-provisioned certificate.</description>
-    <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>psoc6 cysbsyskit_dev_01 cysbsyskit_01</req_capabilities>
     <versions>
       <version>
         <num>Latest 1.X release</num>

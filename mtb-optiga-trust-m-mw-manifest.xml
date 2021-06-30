@@ -5,7 +5,7 @@
     <uri>https://github.com/Infineon/optiga-trust-m</uri>
     <desc>Host Library for OPTIGA™ Trust M</desc>
     <category>Board Utils</category>
-    <req_capabilities>cysbsyskit_dev_01</req_capabilities>
+    <req_capabilities>cysbsyskit_dev_01 cysbsyskit_01</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
         <num>Latest 3.X release</num>
