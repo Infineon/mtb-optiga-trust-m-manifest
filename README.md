@@ -1,3 +1,7 @@
+__Warning: These are not official OPTIGA Trust M ModusToolbox Manifest Files. Use them on your own risk.__
+
+---
+
 # ModusToolbox OPTIGA(TM) Trust M Manifests
 
 ### Overview
