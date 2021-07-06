@@ -14,7 +14,7 @@
       </version>
       <version flow_version="1.0,2.0">
         <num>Release 3.0.0</num>
-        <commit>release-v3.0</commit>
+        <commit>release-v3.0.0</commit>
         <desc>Latest release based on 3.0.2490</desc>
       </version>
     </versions>
