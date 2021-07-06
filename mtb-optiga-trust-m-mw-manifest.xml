@@ -8,9 +8,14 @@
     <req_capabilities>cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
-        <num>Latest 3.X release</num>
+        <num>Latest 3.X version</num>
         <commit>latest-v3.X</commit>
-        <desc>3.0.2490 release</desc>
+        <desc>Latest stable version</desc>
+      </version>
+      <version flow_version="1.0,2.0">
+        <num>Release 3.0.0</num>
+        <commit>release-v3.0</commit>
+        <desc>Latest release based on 3.0.2490</desc>
       </version>
     </versions>
   </middleware>
