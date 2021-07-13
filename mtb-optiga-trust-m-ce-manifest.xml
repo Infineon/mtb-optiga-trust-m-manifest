@@ -7,8 +7,8 @@
     <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version>
-        <num>Latest 1.X release</num>
-        <commit>v1.2</commit>
+        <num>v1.3 release</num>
+        <commit>v1.3</commit>
       </version>
     </versions>
   </app>
@@ -20,8 +20,8 @@
     <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version>
-        <num>v1.3 release</num>
-        <commit>v1.3</commit>
+        <num>v1.4 release</num>
+        <commit>v1.4</commit>
       </version>
     </versions>
   </app>
@@ -33,8 +33,8 @@
     <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version>
-        <num>v1.1 release</num>
-        <commit>v1.1</commit>
+        <num>v1.2 release</num>
+        <commit>v1.2</commit>
       </version>
     </versions>
   </app>
@@ -46,8 +46,8 @@
     <req_capabilities>psoc6 cysbsyskit_dev_01</req_capabilities>
     <versions>
       <version>
-        <num>v1.1 release</num>
-        <commit>v1.1</commit>
+        <num>v1.2 release</num>
+        <commit>v1.2</commit>
       </version>
     </versions>
   </app>
