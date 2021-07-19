@@ -13,8 +13,8 @@
         <desc>Latest stable version</desc>
       </version>
       <version flow_version="1.0,2.0">
-        <num>Release 3.0.1</num>
-        <commit>release-v3.0.1</commit>
+        <num>Release 3.0.2</num>
+        <commit>release-v3.0.2</commit>
         <desc>Latest release based on 3.0.2490</desc>
       </version>
     </versions>
